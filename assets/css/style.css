@@ -1,0 +1,54 @@
+
+
+
+
+/*Globals*/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    background-color: burlywood;
+}
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+p{
+    font-size: 3rem;
+}
+a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+ul,li{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+
+
+/*Navegation menu*/
+.nav-container{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    padding: 20px;
+    background-color: rgb(65, 65, 65);
+}
+.nav-elements{
+    margin: 100px 0;
+    
+}
+.menu-container li {
+    margin-bottom: 20px;
+    
+}
