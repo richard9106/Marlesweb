@@ -12,6 +12,9 @@ html {
 }
 
 body{
+    display: flex;
+    height: 100vh;
+    min-height: 100vh;
     background-color: burlywood;
 }
 h1{
@@ -29,6 +32,7 @@ a{
     color: white;
 }
 ul,li{
+    padding: 0;
     list-style: none;
 }
 img{
@@ -38,7 +42,7 @@ img{
 
 /*Navegation menu*/
 .nav-container{
-    position: fixed;
+    /* position: fixed; */
     width: 200px;
     height: 100%;
     padding: 20px;

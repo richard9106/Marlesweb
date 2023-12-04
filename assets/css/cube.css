@@ -1,0 +1,82 @@
+h3 {
+    color: black;
+  }
+  
+.space3d {
+    width: 90%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    position: relative;
+    /* perspective-origin: 30% 25% ; */
+    perspective: 1500px;
+    /* transform: scale(0.75); */
+  }
+  
+  div.cube3D {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin: 100px auto;
+    transform-style: preserve-3d;
+    /* transform: translateZ(-50px); */
+    /* animation-name: gira;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite; */
+  }
+  
+  /* div.base {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    background-color: rgba(0,0,0,0.15);
+    transform: translateX(75px) translateY(75px) rotateX(90deg) translateZ(-200px);
+    box-shadow: 0 0 50px 100px rgba(0,0,0,0.15);
+  } */
+  aside.cara {
+    position: absolute;
+    margin: 0 25%;
+    width: 700px;
+    height: 700px;
+    background-color: rgba(255,150,0,0.25);
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    font-size: 3rem;
+    text-align: center;
+  }
+  
+  aside.cara1 { /* Frente */
+    transform: translateZ(0px);
+  }
+  
+  aside.cara2 { /* Atrás */
+   background-color: red;
+   transform: translateZ(-700px);
+  }
+  
+  aside.cara3 { /* Izquierda */
+    background-color: blue;
+    transform: rotateY(-90deg)  translateZ(350px) translateX(-350px);
+  }
+  
+  aside.cara4 { /* derecha */
+    background-color: green;
+    transform: rotateY(90deg)  translateZ(350px) translateX(350px);
+  }
+  
+  aside.cara5 { /* abajo */
+    background-color: gray;
+    transform: rotateX(-90deg)  translateZ(350px) translateY(350px);
+  }
+  
+  aside.cara6 { /* arriba */
+    background-color: gray;
+    transform: rotateX(90deg)  translateZ(350px) translateY(-350px);
+  }
+  
+  @keyframes gira {
+    0% {
+      transform: translateZ(-350px) rotateY(0deg);
+    }
+    100% {
+      transform: translateZ(-350px) rotateY(360deg);
+    }
+  }
