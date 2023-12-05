@@ -1,49 +1,9 @@
 /*ANIMATION FOR PAGES*/
-@keyframes home {
-    0% {
-      transform: rotateY(45deg) rotateX(45deg)   scale3d(.8,.8,.8) ;
-    }
-    40%{
-        transform: rotateY(275deg) rotateX(185deg) scale3d(.2,.2,.2)  ;
-    } 
-    80%{
-        transform: rotateY(150deg) rotateX(275deg) scale3d(.2,.2,.2)  ;
-    }
-    100% {
-      transform: rotateY(0deg) rotateX(0deg)  scale3d(.7,.7,.7);
-    }
-  }
-  @keyframes about {
-    0% {
-      transform: rotateY(0deg) rotateX(180deg)   scale3d(.8,.8,.8)  ;
-    }
-    40%{
-        transform: rotateY(275deg) rotateX(185deg) scale3d(.2,.2,.2)  ;
-    } 
-    80%{
-        transform: rotateY(350deg) rotateX(275deg) scale3d(.2,.2,.2)  ;
-    }
-    100% {
-      transform: rotateY(0deg) rotateX(180deg)  scale3d(.7,.7,.7);
-    }
-  }
-  @keyframes projects {
-    0% {
-      transform: rotateY(0deg) rotateX(270deg)   scale3d(.8,.8,.8)  ;
-    }
-    40%{
-        transform: rotateY(275deg) rotateX(185deg) scale3d(.2,.2,.2)  ;
-    } 
-    80%{
-        transform: rotateY(120deg) rotateX(185deg) scale3d(.2,.2,.2)  ;
-    }
-    100% {
-      transform: rotateY(0deg) rotateX(270deg)  scale3d(.7,.7,.7);
-    }
-  }
+/*
+  
   @keyframes contact {
     0% {
-      transform: rotateY(0deg) rotateX(270deg)   scale3d(.8,.8,.8)  ;
+      transform: rotateY(0deg) rotateX(270deg)   scale3d(.7,.7,.7)  ;
     }
     40%{
         transform: rotateY(275deg) rotateX(185deg) scale3d(.2,.2,.2)  ;
@@ -54,7 +14,7 @@
     100% {
       transform: rotateY(0deg) rotateX(90deg)  scale3d(.7,.7,.7);
     }
-  }
+  } */
 /*END ANIMATIONS*/
 
 
